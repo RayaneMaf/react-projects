@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rc-container {
+  box-sizing: border-box;
+  height: 80vh;
+  /*width: 90vw;*/
+  margin: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  align-items: center;
+  text-align: center;
+}
+
+.rc-title {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.rc-details {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.rc-btn-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2vh 0vh;
+}
+
+.rc-btn-container button {
+  padding: 0.8rem 2rem;
+  font-size: 1.3rem;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.rc-btn-container button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
