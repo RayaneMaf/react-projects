@@ -10,7 +10,7 @@ function App() {
       <hr />
       <RandomColor />
       <hr />
-      <StarRating numberOfStarts={10}/>
+      <StarRating numberOfStarts={5}/>
     </div>
   );
 }
