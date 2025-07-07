@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./style.css";
+import "./styles.css";
 function RandomColor() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
   const [color, setColor] = useState("#ffffff");

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./style.css";
+import "./styles.css";
 function ImageSlider({ url, limit = 10, page = 1 }) {
   const [images, setImages] = useState([]);
   const [currentImage, setCurrentImage] = useState(0);

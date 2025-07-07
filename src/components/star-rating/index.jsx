@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./style.css";
+import "./styles.css";
 
 function StarRating({ numberOfStarts = 5 }) {
   const [hover, setHover] = useState(0);
